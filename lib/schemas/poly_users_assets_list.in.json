@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "type": "string"
+        },
+        "name": {
+            "required": true,
+            "type": "string"
+        },
+        "orderBy": {
+            "type": "string"
+        },
+        "pageSize": {
+            "type": "integer"
+        },
+        "pageToken": {
+            "type": "string"
+        },
+        "visibility": {
+            "type": "string",
+            "enum": [
+                "VISIBILITY_UNSPECIFIED",
+                "PUBLISHED",
+                "PRIVATE"
+            ]
+        },
+        "oauth_token": {
+            "type": "string"
+        },
+        "prettyPrint": {
+            "type": "boolean",
+            "default": true
+        },
+        "quotaUser": {
+            "type": "string"
+        },
+        "uploadType": {
+            "type": "string"
+        },
+        "upload_protocol": {
+            "type": "string"
+        }
+    }
+}
